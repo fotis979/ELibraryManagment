@@ -53,21 +53,21 @@
  
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server">View Books</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkBtnViewBooks" runat="server" OnClick="LinkBtnViewBooks_Click">View Books</asp:LinkButton>
                         </li>
                         
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton1" runat="server">User Login</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkBtnUserLogin" runat="server" OnClick="LinkBtnUserLogin_Click">User Login</asp:LinkButton>
                         </li>
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton2" runat="server">Sign Up</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkBtnSignUp" runat="server" OnClick="LinkBtnSignUp_Click">Sign Up</asp:LinkButton>
                         </li>
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton3" runat="server">Logout</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkBtnLogout" runat="server" OnClick="LinkBtnLogout_Click">Logout</asp:LinkButton>
                         </li>
  
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton7" runat="server">Hello user</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkBtnHelloUser" runat="server" OnClick="LinkBtnHelloUser_Click"  >Hello user</asp:LinkButton>
  
                         </li>
                     </ul>
@@ -91,17 +91,17 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                         <p>
-                            <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server">Admin Login</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkBtnAdminLogin" runat="server" OnClick="LinkBtnAdminLogin_Click">Admin Login</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server">Author Management</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkBtnAuthorManagment" runat="server" OnClick="LinkBtnAuthorManagment_Click">Author Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server">Publisher Management</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkBtnPublisherManagement" runat="server" OnClick="LinkBtnPublisherManagement_Click">Publisher Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server">Book Inventory</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkBtnBookInvetory" runat="server" OnClick="LinkBtnBookInvetory_Click">Book Inventory</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server">Book Issuing</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkBtnBookIssuing" runat="server" OnClick="LinkBtnBookIssuing_Click">Book Issuing</asp:LinkButton>
                             &nbsp;
-                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server">Member Management</asp:LinkButton>
+                             <asp:LinkButton class="footerlinks" ID="LinkBtnMemberManagement" runat="server" OnClick="LinkBtnMemberManagement_Click">Member Management</asp:LinkButton>
                         </p>
  
                     </div>

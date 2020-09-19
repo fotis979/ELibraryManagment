@@ -9,17 +9,17 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col">
-                                <center>
+                            <div class="col"  style="text-align:center">
+                                 
                            <h4>Member Details</h4>
-                        </center>
+                         
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <center>
-                           <img width="100px" src="imgs/generaluser.png" />
-                        </center>
+                            <div class="col"  style="text-align:center">
+                                
+                           <img width="100" src="imgs/generaluser.png" />
+                         
                             </div>
                         </div>
                         <div class="row">
@@ -117,10 +117,10 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col">
-                                <center>
+                            <div class="col"  style="text-align:center">
+                                
                            <h4>Member List</h4>
-                        </center>
+                         
                             </div>
                         </div>
                         <div class="row">
