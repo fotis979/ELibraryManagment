@@ -10,18 +10,18 @@
                     <div class="card-body">
 
                         <div class="row">
-                            <div class="col">
-                                 <center>
-                                     <img width="150px" src="imgs/generaluser.png" />
-                                  </center>
+                            <div class="col img-container">
+                                 
+                                     <img width="150" src="imgs/generaluser.png" />
+                                   
                             </div>
                         </div>
                          
                         <div class="row">
-                            <div class="col">
-                                 <center>
+                            <div class="col img-container">
+                                  
                                      <h3>Member Login</h3>
-                                  </center>
+                                  
                             </div>
                         </div>
 
@@ -35,19 +35,19 @@
                              <div class="col">
                                 <div class="form-group">
                                     <label>Member ID</label>
-                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Member ID"></asp:TextBox>
+                                    <asp:TextBox CssClass="form-control" ID="TextBoxMemberId" runat="server" placeholder="Member ID"></asp:TextBox>
                                 </div>
 
                                  <div class="form-group">
                                     <label>Password</label>
-                                    <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                                    <asp:TextBox CssClass="form-control" ID="TextBoxPassword" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
                                 </div>
                                 
                                 <div class="form-group">
-                                    <asp:Button class="btn btn-success  btn-block  btn-lg" ID="Button1" runat="server" Text="Login" />
+                                    <asp:Button class="btn btn-success  btn-block  btn-lg" ID="BtnLogin" runat="server" Text="Login" OnClick="BtnLogin_Click" />
                                  </div>
                                 <div class="form-group">
-                                    <a href="usersignup.aspx"  style="text-decoration:none;"><input class="btn btn-info  btn-block  btn-lg " id="Button2" type="button" value="Sign Up" /></a>
+                                    <a href="usersignup.aspx"  style="text-decoration:none;"><input class="btn btn-info  btn-block  btn-lg " id="BtnSignUp" type="button" value="Sign Up" /></a>
                                  </div>
                        
 
