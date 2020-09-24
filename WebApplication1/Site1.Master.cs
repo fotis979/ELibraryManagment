@@ -15,7 +15,7 @@ namespace WebApplication1
             try
             {
                 
-                if (Session["role"]!=null && Session["role"].Equals(""))
+                if (Session["role"]!=null && Session["role"].Equals("") || Session["role"] == null)
                 {
                     LinkBtnUserLogin.Visible = true; // user login link button
                     LinkBtnSignUp.Visible = true; // sign up link button
@@ -136,6 +136,8 @@ namespace WebApplication1
             LinkBtnBookInvetory.Visible = false; // book inventory link button
             LinkBtnBookIssuing.Visible = false; // book issuing link button
             LinkBtnMemberManagement.Visible = false; // member management link button
+
+            Response.Redirect("homepage.aspx");
         }
 
         protected void LinkBtnHelloUser_Click(object sender, EventArgs e)
