@@ -23,19 +23,17 @@
                     <div class="card-body">
 
                         <div class="row">
-                            <div class="col">
-                                <center>
-                                        <h4>Author Details</h4>
-                                    </center>
+                            <div class="col img-container">
+
+                                <h4>Author Details</h4>
+
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col">
-                                <center>
-                                        <img width="100px" src="imgs/writer.png" />
-                                       
-                                    </center>
+                                <img width="100" src="imgs/writer.png" />
+
                             </div>
                         </div>
 
@@ -93,10 +91,10 @@
 
 
                         <div class="row">
-                            <div class="col">
-                                <center>
-                                        <h4>Author List</h4>
-                                    </center>
+                            <div class="col img-container">
+
+                                <h4>Author List</h4>
+
                             </div>
                         </div>
 
