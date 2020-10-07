@@ -47,6 +47,8 @@ namespace WebApplication1
                     LinkBtnPublisherManagement.Visible = false; // publisher management link button
                     LinkBtnBookInvetory.Visible = false; // book inventory link button
                     LinkBtnBookIssuing.Visible = false; // book issuing link button
+                    LinkBtnMemberManagement.Visible = false; // member management link button
+
                 }
                 else if (Session["role"] != null && Session["role"].Equals("admin"))
                 {
@@ -63,6 +65,7 @@ namespace WebApplication1
                     LinkBtnPublisherManagement.Visible = true; // publisher management link button
                     LinkBtnBookInvetory.Visible = true; // book inventory link button
                     LinkBtnBookIssuing.Visible = true; // book issuing link button
+                    LinkBtnMemberManagement.Visible = true; // member management link button
                 }
             }
             catch (Exception ex)
@@ -142,7 +145,14 @@ namespace WebApplication1
 
         protected void LinkBtnHelloUser_Click(object sender, EventArgs e)
         {
-
+            if (Session["role"] != null && Session["role"].Equals("user"))
+            {
+                Response.Redirect("userprofile.aspx");
+            }
+            else
+            {
+                Response.Write("<script>alert('You are Login as Admin');</script>");
+            }
         }
     }
 }

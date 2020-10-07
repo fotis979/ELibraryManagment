@@ -201,6 +201,7 @@ namespace WebApplication1
                     
                     GridView1.DataBind();
                     Response.Write("<script>alert('Member Status Updated');</script>");
+                    getMemberByID();
 
 
                 }
